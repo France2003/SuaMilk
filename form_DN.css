@@ -154,7 +154,6 @@ input::placeholder {
 footer{
     width: 1519px;
     height: 488px;
-    border: 1px solid black;
 }
 .footer{
     align-items: flex-start;
