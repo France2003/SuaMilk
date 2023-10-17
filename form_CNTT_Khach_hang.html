@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="anh/milk.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form_CNTT_Khach_hang.css">
+    <title>Cập nhật thông tin khách hàng</title>
+</head>
+<body>
+    <form class="form">
+        <div class="tieude">
+            <h2>CẬP NHẬT THÔNG TIN KHÁCH HÀNG</h2>
+        </div>
+        <table>
+            <tr>
+                <td><label for="textMa">Mã khách hàng: </label></td>
+                <td><input type="text" id="textMa" style="background-color: rgb(243, 243, 99); width: 100px;"></td>
+            </tr>
+            <tr>
+                <td><label for="textName">Tên khách hàng:</label></td>
+                <td><input type="text" id="textName"></td>
+            </tr>
+            <tr>
+                <td><label>Phái</label></td>
+                <td>
+                    <input type="radio" name="Gender"> Nam
+                    <input type="radio" name="Gender" value="Nữ" checked> Nữ
+                </td>
+            </tr>
+            <tr>
+                <td><label for="textAddress">Địa chỉ: </label></td>
+                <td><input type="text" id="textAddress"></td>
+            </tr>
+            <tr>
+                <td><label for="numberSDT">Điện thoại: </label></td>
+                <td><input type="number" id="numberSDT" style="width: 120px;"></td>
+            </tr>
+            <tr>
+                <td><label for="textEmail">Email: </label></td>
+                <td><input type="email"  id="textEmail"></td>
+            </tr>
+        </table>
+        <div class="button">
+            <button>Cập nhật</button>
+        </div>
+    </form>
+</body>
+</html>
