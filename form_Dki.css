@@ -10,7 +10,7 @@
 } */
 
 .lop1{
-    margin: 10px;
+    margin-top: -5px;
     display: flex;
     
 }
@@ -76,7 +76,7 @@
 }
 
 .lop2 .box1{
-    background-image: url(/assert/img/img/logosua.jpg);
+    background-image: url(anh/backgrounDN.jpg);
     background-size: cover;
     width: 350px;
     height: 430px;
